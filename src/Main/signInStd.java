@@ -205,7 +205,7 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		saveReturn.setIcon(new ImageIcon(signInStd.class.getResource("/Images/save_submit.png")));
+		saveReturn.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Submit-2.png")));
 		saveReturn.setBounds(548, 214, 144, 39);
 		edPageIV.add(saveReturn);
 		
@@ -289,9 +289,14 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		saveSub.setIcon(new ImageIcon(signInStd.class.getResource("/Images/save_return.png")));
+		saveSub.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Submit-1.png")));
 		saveSub.setBounds(372, 214, 144, 39);
 		edPageIV.add(saveSub);
+		
+		JLabel lblNewLabel_5 = new JLabel("");
+		lblNewLabel_5.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dashboard_std.png")));
+		lblNewLabel_5.setBounds(0, 0, 712, 471);
+		edPageIV.add(lblNewLabel_5);
 		
 		JLabel saveNextIII = new JLabel("");
 		saveNextIII.addMouseListener(new MouseAdapter() {
@@ -337,7 +342,7 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		saveNextIII.setIcon(new ImageIcon(signInStd.class.getResource("/Images/save_next.png")));
+		saveNextIII.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Save_next.png")));
 		saveNextIII.setBounds(293, 290, 158, 39);
 		edPageIII.add(saveNextIII);
 		
@@ -414,6 +419,11 @@ public class signInStd extends JFrame {
 		uploadBtn.setBounds(372, 213, 127, 40);
 		edPageIII.add(uploadBtn);
 		
+		JLabel lblNewLabel_5_1 = new JLabel("");
+		lblNewLabel_5_1.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dashboard_std.png")));
+		lblNewLabel_5_1.setBounds(0, 0, 712, 471);
+		edPageIII.add(lblNewLabel_5_1);
+		
 		JLabel saveNextII = new JLabel("");
 		saveNextII.addMouseListener(new MouseAdapter() {
 			@Override
@@ -456,7 +466,7 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		saveNextII.setIcon(new ImageIcon(signInStd.class.getResource("/Images/save_next.png")));
+		saveNextII.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Save_next.png")));
 		saveNextII.setBounds(293, 290, 127, 39);
 		edPageII.add(saveNextII);
 		
@@ -520,6 +530,11 @@ public class signInStd extends JFrame {
 		guardianAdd.setColumns(10);
 		guardianAdd.setBounds(372, 214, 320, 39);
 		edPageII.add(guardianAdd);
+		
+		JLabel lblNewLabel_12 = new JLabel("");
+		lblNewLabel_12.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dashboard_std.png")));
+		lblNewLabel_12.setBounds(0, 0, 702, 471);
+		edPageII.add(lblNewLabel_12);
 		
 		JLabel backp1 = new JLabel("Back to home");
 		backp1.addMouseListener(new MouseAdapter() {
@@ -691,9 +706,14 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		saveNext1.setIcon(new ImageIcon(signInStd.class.getResource("/Images/save_next.png")));
+		saveNext1.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Save_next.png")));
 		saveNext1.setBounds(372, 410, 158, 39);
 		edPageI.add(saveNext1);
+		
+		JLabel lblNewLabel_10 = new JLabel("");
+		lblNewLabel_10.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dashboard_std.png")));
+		lblNewLabel_10.setBounds(0, 0, 702, 471);
+		edPageI.add(lblNewLabel_10);
 		//cards.add(dashboard_admin);
 		
 		JLabel rejectReq = new JLabel("");
@@ -728,8 +748,8 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		rejectReq.setBorder(new LineBorder(new Color(0, 0, 0), 1, true));
-		rejectReq.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Reject_btn.png")));
+		rejectReq.setBorder(null);
+		rejectReq.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Reject_btn.png")));
 		rejectReq.setBounds(560, 401, 130, 46);
 		dashboard_admin.add(rejectReq);
 		
@@ -770,8 +790,8 @@ public class signInStd extends JFrame {
 					}
 				}
 		});
-		acceptReq.setBorder(new LineBorder(new Color(0, 0, 0), 1, true));
-		acceptReq.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Accept_btn.png")));
+		acceptReq.setBorder(null);
+		acceptReq.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Accept_btn.png")));
 		acceptReq.setBounds(414, 401, 130, 46);
 		dashboard_admin.add(acceptReq);
 		
@@ -826,49 +846,57 @@ public class signInStd extends JFrame {
 				}	
 			}
 		});
-		downloadTranscript.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Dwnld_btn.png")));
+		downloadTranscript.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dwnld_btn.png")));
 		downloadTranscript.setBounds(456, 343, 205, 46);
 		dashboard_admin.add(downloadTranscript);
 		
 		JLabel enrolType = new JLabel("");
+		enrolType.setForeground(Color.WHITE);
 		enrolType.setFont(new Font("Montserrat Light", Font.PLAIN, 12));
 		enrolType.setBounds(571, 317, 121, 14);
 		dashboard_admin.add(enrolType);
 		
 		JLabel lblNewLabel_16_2_1_1 = new JLabel("Enrolment type:");
+		lblNewLabel_16_2_1_1.setForeground(Color.WHITE);
 		lblNewLabel_16_2_1_1.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblNewLabel_16_2_1_1.setFont(new Font("Montserrat SemiBold", Font.BOLD, 12));
 		lblNewLabel_16_2_1_1.setBounds(425, 318, 140, 14);
 		dashboard_admin.add(lblNewLabel_16_2_1_1);
 		
 		JLabel courseName = new JLabel("");
+		courseName.setForeground(Color.WHITE);
 		courseName.setFont(new Font("Montserrat Light", Font.PLAIN, 12));
 		courseName.setBounds(572, 291, 120, 14);
 		dashboard_admin.add(courseName);
 		
 		JLabel lblNewLabel_16_2_1 = new JLabel("Course of pursuit:");
+		lblNewLabel_16_2_1.setForeground(Color.WHITE);
 		lblNewLabel_16_2_1.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblNewLabel_16_2_1.setFont(new Font("Montserrat SemiBold", Font.BOLD, 12));
 		lblNewLabel_16_2_1.setBounds(426, 292, 140, 14);
 		dashboard_admin.add(lblNewLabel_16_2_1);
 		
 		JLabel doC = new JLabel("");
+		doC.setForeground(Color.WHITE);
 		doC.setFont(new Font("Montserrat Light", Font.PLAIN, 12));
 		doC.setBounds(570, 266, 122, 14);
 		dashboard_admin.add(doC);
 		
 		JLabel lblNewLabel_16_2 = new JLabel("Year of completion:");
+		lblNewLabel_16_2.setForeground(Color.WHITE);
 		lblNewLabel_16_2.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblNewLabel_16_2.setFont(new Font("Montserrat SemiBold", Font.BOLD, 12));
 		lblNewLabel_16_2.setBounds(424, 267, 140, 14);
 		dashboard_admin.add(lblNewLabel_16_2);
 		
 		JLabel schName = new JLabel("");
+		schName.setForeground(Color.WHITE);
 		schName.setFont(new Font("Montserrat Light", Font.PLAIN, 12));
 		schName.setBounds(568, 242, 124, 14);
 		dashboard_admin.add(schName);
 		
 		JLabel lblNewLabel_16 = new JLabel("School of completion:");
+		lblNewLabel_16.setForeground(Color.WHITE);
 		lblNewLabel_16.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblNewLabel_16.setFont(new Font("Montserrat SemiBold", Font.BOLD, 12));
 		lblNewLabel_16.setBounds(424, 242, 140, 14);
@@ -881,26 +909,26 @@ public class signInStd extends JFrame {
 		dashboard_admin.add(studentName);
 		
 		JLabel lblNewLabel_14 = new JLabel("");
-		lblNewLabel_14.setBorder(UIManager.getBorder("ComboBox.border"));
+		lblNewLabel_14.setBorder(null);
 		lblNewLabel_14.setForeground(Color.BLACK);
 		lblNewLabel_14.setOpaque(true);
 		lblNewLabel_14.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Login_Form.png")));
 		lblNewLabel_14.setBounds(485, 62, 140, 140);
 		dashboard_admin.add(lblNewLabel_14);
 		
-		JLabel signoutAdmin = new JLabel("New label");
+		JLabel signoutAdmin = new JLabel("");
 		signoutAdmin.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				cardlayout.show(cards, "AdminSign");
 			}
 		});
-		signoutAdmin.setIcon(new ImageIcon(signInStd.class.getResource("/Images/SignOutbtn.png")));
+		signoutAdmin.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Group 1.png")));
 		signoutAdmin.setBounds(604, 11, 88, 32);
 		dashboard_admin.add(signoutAdmin);
 		
 		JLabel lblNewLabel_9 = new JLabel("New label");
-		lblNewLabel_9.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Bkg_Image.png")));
+		lblNewLabel_9.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Rectangle 11.png")));
 		lblNewLabel_9.setBounds(402, 0, 300, 471);
 		dashboard_admin.add(lblNewLabel_9);
 		
@@ -978,7 +1006,7 @@ public class signInStd extends JFrame {
 				cardlayout.show(cards, "StudentSign");
 			}
 		});
-		std_signOut.setIcon(new ImageIcon(signInStd.class.getResource("/Images/SignOutbtn.png")));
+		std_signOut.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Group 1.png")));
 		std_signOut.setBounds(603, 11, 89, 26);
 		dashboard_std.add(std_signOut);
 		
@@ -1052,7 +1080,7 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		subReq.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Submit.png")));
+		subReq.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Submit.png")));
 		subReq.setFont(new Font("Montserrat SemiBold", Font.PLAIN, 11));
 		subReq.setBounds(205, 352, 133, 38);
 		dashboard_std.add(subReq);
@@ -1064,9 +1092,14 @@ public class signInStd extends JFrame {
 				cardlayout.show(cards, "EditI");
 			}
 		});
-		editInfoBtn.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Edit.png")));
+		editInfoBtn.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Edit.png")));
 		editInfoBtn.setBounds(363, 352, 133, 38);
 		dashboard_std.add(editInfoBtn);
+		
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Dashboard_std.png")));
+		lblNewLabel_4.setBounds(0, 0, 702, 472);
+		dashboard_std.add(lblNewLabel_4);
 		
 		JLabel std2adm = new JLabel("Not a student, sign in as admin");
 		std2adm.addMouseListener(new MouseAdapter() {
@@ -1147,7 +1180,7 @@ public class signInStd extends JFrame {
 				
 			}
 			});
-		signInbtn.setIcon(new ImageIcon(signInStd.class.getResource("/Images/SignInbtn.png")));
+		signInbtn.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/SignIn_Btn.png")));
 		signInbtn.setBounds(426, 297, 110, 44);
 		stdSignPane.add(signInbtn);
 		
@@ -1180,7 +1213,7 @@ public class signInStd extends JFrame {
 				}
 			}
 		});
-		signInAdmin.setIcon(new ImageIcon(signInStd.class.getResource("/Images/SignInbtn.png")));
+		signInAdmin.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/SignIn_Btn.png")));
 		signInAdmin.setBounds(426, 297, 110, 44);
 		adminSignPane.add(signInAdmin);
 		
@@ -1245,24 +1278,24 @@ public class signInStd extends JFrame {
 		adminSignPane.add(lblNewLabel_2_2);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Bkg_Image.png")));
+		lblNewLabel.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Student_SignIn.png")));
 		lblNewLabel.setBounds(0, 0, 257, 473);
 		stdSignPane.add(lblNewLabel);
 		
 		JLabel lblNewLabelI = new JLabel("New label");
-		lblNewLabelI.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Bkg_Image.png")));
+		lblNewLabelI.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/SignIn_Admin_Img.png")));
 		lblNewLabelI.setBounds(0, 0, 257, 473);
 		adminSignPane.add(lblNewLabelI);
 		
-		JLabel lblNewLabel_1 = new JLabel("New label");
+		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBorder(null);
-		lblNewLabel_1.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Login_Form.png")));
-		lblNewLabel_1.setBounds(340, 90, 285, 292);
+		lblNewLabel_1.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Login_Form.png")));
+		lblNewLabel_1.setBounds(340, 96, 283, 292);
 		stdSignPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_11 = new JLabel("New label");
 		lblNewLabel_11.setBorder(null);
-		lblNewLabel_11.setIcon(new ImageIcon(signInStd.class.getResource("/Images/Login_Form.png")));
+		lblNewLabel_11.setIcon(new ImageIcon(signInStd.class.getResource("/ImagesFinal/Login_Form.png")));
 		lblNewLabel_11.setBounds(340, 90, 285, 292);
 		adminSignPane.add(lblNewLabel_11);
 		
